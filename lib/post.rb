@@ -15,14 +15,11 @@ class Post
   end
 
   def author_name
-#    binding.pry
-    if !author
+    if !self.author
       nil
     else
-      author.name
+      self.author.name
     end
   end
-
-
 
 end
