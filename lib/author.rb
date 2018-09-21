@@ -23,4 +23,4 @@ class Author
       post = Post.new(title)
       post.author = self
     end
-   end #Author class end
+  end #Author
